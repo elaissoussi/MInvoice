@@ -12,10 +12,10 @@ import org.opencv.android.CameraBridgeViewBase;
 import org.opencv.android.OpenCVLoader;
 import org.opencv.core.Mat;
 
-public class MinvoiceCameraActivity extends AppCompatActivity implements PortraitCameraView.CvCameraViewListener2
+public class MinvoiceCameraActivity3 extends AppCompatActivity implements PortraitCameraView.CvCameraViewListener2
 {
     // A tag for log output.
-    private static final String TAG = MinvoiceCameraActivity.class.getSimpleName();
+    private static final String TAG = MinvoiceCameraActivity3.class.getSimpleName();
 
     // Minoice Camera view
     private PortraitCameraView mCameraView;

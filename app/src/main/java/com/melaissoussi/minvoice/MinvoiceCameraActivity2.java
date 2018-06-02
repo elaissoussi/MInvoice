@@ -28,10 +28,10 @@ import org.opencv.imgproc.Imgproc;
 import java.io.File;
 import java.util.List;
 
-public class MinvoiceCameraActivity extends AppCompatActivity implements CameraBridgeViewBase.CvCameraViewListener2
+public class MinvoiceCameraActivity2 extends AppCompatActivity implements CameraBridgeViewBase.CvCameraViewListener2
 {
     // A tag for log output.
-    private static final String TAG = MinvoiceCameraActivity.class.getSimpleName();
+    private static final String TAG = MinvoiceCameraActivity2.class.getSimpleName();
 
     // A key for storing the index of the active camera.
     private static final String STATE_CAMERA_INDEX = "cameraIndex";
@@ -298,7 +298,7 @@ public class MinvoiceCameraActivity extends AppCompatActivity implements CameraB
             @Override
             public void run()
             {
-                Toast.makeText(MinvoiceCameraActivity.this, errorMessage,
+                Toast.makeText(MinvoiceCameraActivity2.this, errorMessage,
                         Toast.LENGTH_SHORT).show();
             }
         });

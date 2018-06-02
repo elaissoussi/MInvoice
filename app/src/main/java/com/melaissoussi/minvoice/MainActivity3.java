@@ -13,9 +13,9 @@ import org.opencv.android.JavaCameraView;
 import org.opencv.android.OpenCVLoader;
 import org.opencv.core.Mat;
 
-public class MainActivity extends Activity implements CameraBridgeViewBase.CvCameraViewListener2
+public class MainActivity3 extends Activity implements CameraBridgeViewBase.CvCameraViewListener2
 {
-    private static final String TAG = MainActivity.class.getSimpleName();
+    private static final String TAG = MainActivity3.class.getSimpleName();
 
     private JavaCameraView javaCameraView;
 
